@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">  
+    <title>Modern Blog</title>
+    <link rel="stylesheet" href="hi.css">  
 </head>
 <body>
+    <!-- Header -->
     <header>
         <nav>
             <a href="index.html">Home</a>
@@ -19,40 +20,114 @@
             <a href="testimonials.html">Testimonials</a>
         </nav>
     </header>
-    <div id="container">
-        <div class="div1">
-            <div id="div_1" class="divv ana"></div>
-            <div id="div_2" class="divv">
-                <ul>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms of Service</a></li>
-                    <li><a href="sitemap.html">Sitemap</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="careers.html">Careers</a></li>
-                    <li><a href="support.html">Support</a></li>
-                    <li><a href="press.html">Press</a></li>
-                    <li><a href="advertising.html">Advertising</a></li>
-                </ul>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to the Modern Blog</h1>
+            <p>Your go-to platform for insightful articles, resources, and inspiration.</p>
+            <button>Get Started</button>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div id="blog-container">
+            <div class="blog-post">
+                <h3>Blog Post Title</h3>
+                <p>Posted on <time datetime="2023-10-01">October 1, 2023</time> by Author</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="post1.html">Read more...</a>
+            </div>
+            <div class="blog-post">
+                <h3>Another Blog Post</h3>
+                <p>Posted on <time datetime="2023-09-25">September 25, 2023</time> by Author</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <a href="post2.html">Read more...</a>
+            </div>
+            <div class="blog-post">
+                <h3>Third Blog Post</h3>
+                <p>Posted on <time datetime="2023-09-10">September 10, 2023</time> by Author</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <a href="post3.html">Read more...</a>
             </div>
         </div>
-        <div class="div2">
-            <div id="div1">
-                        <h2>Blog Post Title</h2>
-                        <p>Posted on <time datetime="2023-10-01">October 1, 2023</time> by Author</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="post1.html">Read more...</a>
-                        <h2>Another Blog Post</h2>
-                        <p>Posted on <time datetime="2023-09-25">September 25, 2023</time> by Author</p>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="post2.html">Read more...</a>             
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="images/member1.jpg" alt="Team Member 1">
+                <h3>Jane Doe</h3>
+                <p>Lead Developer</p>
             </div>
-            <div id="div2"></div>
-            <div id="div3">
-                <div id="dd1" class="d1 ana"></div>
-                <div id="dd2" class="d1 ana"></div>
-                <div id="dd3" class="d1 ana"></div>
+            <div class="team-member">
+                <img src="images/member2.jpg" alt="Team Member 2">
+                <h3>John Smith</h3>
+                <p>Content Strategist</p>
+            </div>
+            <div class="team-member">
+                <img src="images/member3.jpg" alt="Team Member 3">
+                <h3>Emily Clark</h3>
+                <p>UI/UX Designer</p>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Our Gallery</h2>
+        <div class="gallery-container">
+            <img src="images/gallery1.jpg" alt="Gallery Image 1">
+            <img src="images/gallery2.jpg" alt="Gallery Image 2">
+            <img src="images/gallery3.jpg" alt="Gallery Image 3">
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What People Are Saying</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"This blog has changed my perspective on so many things!"</p>
+                <h4>- Alex Johnson</h4>
+            </div>
+            <div class="testimonial">
+                <p>"A fantastic resource for learning and staying inspired."</p>
+                <h4>- Maria Lopez</h4>
+            </div>
+            <div class="testimonial">
+                <p>"I love the quality and depth of the articles here."</p>
+                <h4>- Liam Brown</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section id="cta">
+        <h2>Join Our Community</h2>
+        <p>Subscribe to our newsletter for the latest updates and insights.</p>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Modern Blog. All Rights Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
